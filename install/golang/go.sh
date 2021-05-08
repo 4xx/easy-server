@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-VERSION=1.11.4
+VERSION=1.16.4
 OS=linux
 ARCH=amd64
 SHA256=fb26c30e6a04ad937bbc657a1b5bba92f80096af1e8ee6da6430c045a8db3a5b
