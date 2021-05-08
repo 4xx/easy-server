@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# UBUNTU only
+# Debian only
 
 # Uninstall old versions
 sudo apt-get remove docker docker-engine docker.io
 
-# Update the Ubuntu Repo
-sudo apt-get update
+# Update the Debian Repo
+sudo apt-get update %% sudo apt-get -y upgrade
 
 # Install packages to allow apt to use a repository over HTTPS
 sudo apt-get install -y \
@@ -17,11 +17,11 @@ sudo apt-get install -y \
     software-properties-common
 
 # Add Docker’s official GPG key
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 
 # Add Docker repository for Ubuntu
 sudo add-apt-repository \
-   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   "deb https://download.docker.com/linux/debian \
    $(lsb_release -cs) \
    stable"
 
