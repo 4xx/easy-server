@@ -4,5 +4,5 @@
 sudo apt-get update
 
 # Install GIT
-sudo apt-get install -y git wget awk tar shasum
+sudo apt-get install -y git wget gawk tar node-shasum
 
