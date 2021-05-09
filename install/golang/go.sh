@@ -4,7 +4,7 @@
 VERSION=1.16.4
 OS=linux
 ARCH=amd64
-SHA256=fb26c30e6a04ad937bbc657a1b5bba92f80096af1e8ee6da6430c045a8db3a5b
+SHA256=7154e88f5a8047aad4b80ebace58a059e36e7e2e4eb3b383127a28c711b4ff59
 
 # Download
 wget https://dl.google.com/go/go$VERSION.$OS-$ARCH.tar.gz
